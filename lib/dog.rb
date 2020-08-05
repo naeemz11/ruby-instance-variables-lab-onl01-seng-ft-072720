@@ -2,16 +2,16 @@ require "pry"
 class Dog 
 
 def name= (dog_name)
-  this_dog_name= dog_name 
+  @this_dog_name= dog_name 
 end 
 
 def name 
-  this_dog_name
+  @this_dog_name
 end 
-
+binding.pry 
 end 
 
 
 lessie= Dog.new 
 lessie.name= "Lassie" 
-lessie.name 
+puts lessie.name 
