@@ -8,8 +8,7 @@ end
 def name 
   this_dog_name
 end 
-binding.pry
+
 end 
 
-tyson= Dog.new 
-tyson.name 
+
