@@ -12,3 +12,5 @@ end
 end 
 
 
+lessie= Dog.new 
+lessie.name 
