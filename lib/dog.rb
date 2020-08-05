@@ -13,4 +13,4 @@ end
 
 
 lessie= Dog.new 
-lessie.name 
+lessie.nam= "Lassie" 
